@@ -5,7 +5,7 @@ from email.mime.text import MIMEText
 from user import User
 
 SENDER = "pyp982744@gmail.com"  #email of sender
-PASSWORD = "jyleozslwpqgpchx"  # App password
+PASSWORD = ""  # App password
 
 def OTP(receive, message = "otp"):
     server = smtplib.SMTP('smtp.gmail.com', 587)
